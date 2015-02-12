@@ -739,6 +739,6 @@ process has exited.
 
 If the process times out, or has a non-zero exit code, this method ***will***
 throw.  The `Error` object will contain the entire result from
-[`child_process.spawnSync`](#child_process_child_process_spawnsync_command_args_options)
+[`child_process.execSync`](#child_process_child_process_execfilesync_command_args_options)
 
 [EventEmitter]: events.html#events_class_events_eventemitter
